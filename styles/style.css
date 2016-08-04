@@ -1,5 +1,47 @@
 
 body{
-	background: url("../image/under.png") ; 
-	font-family	  : fantasy	;
+	background: url("../image/back1.jpg") ;
+}
+
+menu{
+	position:
+}
+
+#home{
+	position: fixed;
+}
+
+.menu{
+	display: inline-block;
+	width: 100px ;
+	height: 30px;
+	text-decoration: none;
+}
+
+#intro{
+	color: white;
+	text-align: center;
+	font-family:"lucida calligraphy";
+	font-size: 30px;
+}
+
+#contact{
+	text-align: center;
+	color: white
+}
+
+p{
+	color: white;
+	font-family:fantasy;
+}
+
+#menu_wrap{
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 40px;
+	font-family: "nueva std"
+}
+
+#copyright{
+	text-align: center;
 }
