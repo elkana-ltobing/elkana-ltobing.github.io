@@ -1,0 +1,31 @@
+
+body{
+	background: black url("opx.jpg") repeat-y right; 
+	font-family	  : fantasy	;
+}
+
+h1 {
+	 background-color : grey    ;
+	 text-align 	  : center	; 
+	 color            : black   ;
+	 font-family: serif;
+}
+
+#teks_panjang{
+	 color  		  : white   ;
+	 text-align       : justify ;
+	 text-indent	  : 50		; 
+	 width			  : 800		; 
+	 line-height	  : 2		;  
+}
+
+blockquote{
+	color: white; 
+	background-color:grey;
+	width: 580;
+	font-family: cursive;
+}
+
+ul{
+	color: white
+}
