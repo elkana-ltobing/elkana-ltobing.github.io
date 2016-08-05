@@ -1,0 +1,66 @@
+
+body{
+	background: url("../images/back1.jpg") ;
+}
+
+#home{
+	position: fixed;
+}
+
+.menu{
+	display: inline-block;
+	width: 100px ;
+	height: 30px;
+	text-decoration: none;
+}
+
+#intro{
+	color: white;
+	text-align: center;
+	font-family:"lucida calligraphy";
+	font-size: 30px;
+}
+
+#contact{
+	text-align: center;
+	color: white
+}
+
+.teks{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	}
+
+#menu_wrap{
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 40px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#copyright{
+	text-align: center;
+	color: white;
+}
+
+#news_judul{
+	color: white;
+	font-family: cursive;
+}
+
+.header_intro{
+	text-align: center;
+	color: #335b9c;
+}
+#op_pict{
+	float: left;
+	margin-right: 20px;
+	}
+#content p{
+		color: white;
+		font-family: cursive;
+		margin-right: 20px;
+		text-align: justify;
+		font-size: 20px;
+}
