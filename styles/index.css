@@ -21,6 +21,13 @@ body{
 	font-size: 30px;
 }
 
+#cerjogg{
+	color: purple;
+	text-align: center;
+	font-size: 50px;
+	font-family:"lucida calligraphy";
+}
+
 #contact{
 	text-align: center;
 	color: white
@@ -40,8 +47,10 @@ body{
 }
 
 #copyright{
+	clear: both;
 	text-align: center;
 	color: white;
+
 }
 
 #news_judul{
@@ -53,10 +62,12 @@ body{
 	text-align: center;
 	color: #335b9c;
 }
+
 #op_pict{
 	float: left;
 	margin-right: 20px;
-	}
+}
+
 #content p{
 		color: white;
 		font-family: cursive;
@@ -64,3 +75,28 @@ body{
 		text-align: justify;
 		font-size: 20px;
 }
+
+.pict_story{
+	width: 40%;
+	display: inline-block;
+	}
+
+.story{
+	font-size: 45px;
+	color: #335b9c;
+	display: inline-block;
+	font-family: cursive;
+	margin-right: 280px;
+	margin-top: 100px;
+	float: right;
+	}
+
+#story1{
+		font-size: 45px;
+		color: #335b9c;
+		display: inline-block;
+		font-family: cursive;
+		margin-right: 280px;
+		margin-top: 600px;
+		float: right;
+		}
