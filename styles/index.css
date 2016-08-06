@@ -7,9 +7,16 @@ body{
 	position: fixed;
 }
 
+#menu_wrap{
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 40px;
+font-family: 'Kaushan Script', cursive;
+}
+
 .menu{
 	display: inline-block;
-	width: 100px ;
+	width: 150px ;
 	height: 30px;
 	text-decoration: none;
 }
@@ -39,14 +46,17 @@ body{
 	font-size: 20px;
 	}
 
-#menu_wrap{
-	text-align: right;
-	margin-top: 20px;
-	margin-right: 40px;
-	font-family: 'Kaushan Script', cursive;
+input:invalid{
+	background: darkred;
+	color: white;
 }
 
-#copyright{
+.input_teks{
+	width: 270px;
+	display: block;
+}
+
+#footer{
 	clear: both;
 	text-align: center;
 	color: white;
