@@ -22,6 +22,10 @@ font-family: 'Kaushan Script', cursive;
 	color: purple;
 }
 
+.friday:hover{
+	color: purple;
+}
+
 #intro{
 	color: white;
 	text-align: center;
@@ -146,7 +150,6 @@ input:invalid{
 	font-size: 25px;
 	list-style:none;
 	display: inline-block;
-	width: 250;
 }
 	a{
 		text-decoration: none;
