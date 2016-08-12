@@ -17,7 +17,7 @@ return hasilKuadrat;
 function hipotenusa(a,b){
 var a = 3;
 var b = 4;
-var hasilHipotenusa = Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
+var hasilHipotenusa = Math.hypot(a, b);
 return hasilHipotenusa + " cm";
 }
 
