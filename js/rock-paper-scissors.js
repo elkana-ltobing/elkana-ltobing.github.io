@@ -5,11 +5,11 @@ switch(pilihanPengguna){
 	case "TL":
 	alert("Pilihan anda - Telunjuk");
 	break;
-    
+
 	case "JP":
 	alert("Pilihan anda - Jempol");
 	break;
-        
+
 	default:
 	alert("Pilihan anda - Kelingking");
 }
@@ -17,15 +17,15 @@ switch(pilihanPengguna){
 // Buatlah fungsi acak yang akan digunakan otomatis oleh lawan
 var lawan = Math.random();
 if (lawan<=0.33){
-	lawan="Telunjuk"
+	lawan="Telunjuk";
     alert("Pilihan Komputer - Telunjuk");
 }
 else if(lawan<=0.66){
-	lawan="Jempol"
+	lawan="Jempol";
     alert("Pilihan Komputer - Jempol");
 }
 else{
-	lawan="Kelingking"
+	lawan="Kelingking";
     alert("Pilihan Komputer - Kelingking");
 }
 
