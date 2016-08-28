@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>elt_text-style-event</title>
+	<meta charset="utf-8"/>
+	<meta description="text-style-event"/>
+	<link href="../images/elow.png" type="image/png" rel="icon" />
+	<link rel="stylesheet" href="../styles/index.css">
+	<script>
+	  window.onload = function()
+	{
+	tulisan.style.fontSize = "30px";
+
+	  bold.addEventListener("click", function makeBold() {
+	  tulisan.style.fontSize = "50px";
+	  tulisan.style.fontWeight = "900";
+	  tulisan.style.color = "purple";
+	  });
+	  
+	  italic.addEventListener("contextmenu", function makeItalic() {
+	  tulisan.style.fontSize = "50px";
+	  tulisan.style.fontStyle = "italic";
+	  tulisan.style.color = "purple";
+	  });
+	  }
+	  </script>
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+<body>
+
+<nav id="menu_wrap">
+        <a href="../index.html" class="menu">Home</a>
+      	<a href="../news/first-news.html" class="menu">News</a>
+      	<a href="../blog/2016-08-06_first-story.html" class="menu">Story</a>
+      	<a href="https://littleip.wordpress.com/2016/08/07/cerita-rangkuman-kegiatan-hacktiv8-phase-0-week-1-ready-get-creative/" class="menu">Blog</a>
+  </nav>
+
+	<h1 id="intro">text-style-event</h1>
+
+	<p id= tulisan>--Tulisan yang akan berubah style--</p>
+
+	<button type="submit" id="bold">Klik Kiri disini untuk tulisan Bold</button>
+	<button type="submit" id="italic">Klik Kanan disini tulisan Italic</button>
+
+<!--Footer-->
+      <div id="footer">
+          <a href="https://facebook.com/elt18"><img src="../images/fb.png" width="25px"></a>
+          <a href="https://twitter.com/elkana_ltobing"><img src="../images/twt.png" width="25px"></a>
+          <a href="https://instagram.com/elkana_ltobing"><img src="../images/ig.png" width="25px"></a>
+          <a href="https://id.linkedin.com/in/elkana-lumbantobing-906498a8"><img src="../images/lin.png" width="25px"></a>
+    			<p>Copyright &copy; 2016 elkana_ltobing. All rights reserved.</p>
+			</div>
+
+</body>
+</html>
